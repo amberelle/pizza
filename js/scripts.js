@@ -48,16 +48,18 @@ $(function(){
 		var toppings3Input = parseInt($("#toppings3").val());
 		var newPizza = new Pizza(nameInput, sizeInput, toppings1Input, toppings2Input, toppings3Input);
 
-		$("#names").append("<li>"+newPizza.name+"</li>");
-		$("#prices").append("<li>$"+newPizza.price()+"</li>");
+		// $("#names").append("<li>"+newPizza.name+"</li>");
+		// $("#prices").append("<li>$"+newPizza.price()+"</li>");
+		$("#names").append(newPizza.name);
+		$("#prices").append(newPizza.price());
 		$("#reset").show();
-		$(".row").show();
+		$("#result").show();
 		$("#pizzaOptions")[0].reset();
 	});
 
 	$("#reset").click(function(event){
 		event.preventDefault();
-		$(".row").hide();
+		$("#result").hide();
 		$("#names").text("");
 		$("#prices").text("");
 		$("#reset").hide();

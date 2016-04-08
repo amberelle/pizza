@@ -1,7 +1,43 @@
+
+#reset{
+	display: none;
+}
+
 #result{
 	display: none;
 }
 
-#reset{
-	display: none;
+
+.jumbotron{
+  background-color: red;
+  padding-right: 5em;
+  padding-left: 5em;
+  color: white
+
+}
+h1{
+  text-align:right;
+}
+h2{
+  color:white;
+  text-align:right;
+  padding-right: 3em;
+}
+h3{
+  color:white;
+  text-align:right;
+  padding-right: 6em;
+}
+h4{
+  color:white;
+  text-align:right;
+  padding-right: 2em;
+}
+img{
+
+  border-radius: 2em;
+
+}
+body{
+  background-color:#ffa64d;
 }
