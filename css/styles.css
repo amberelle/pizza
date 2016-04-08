@@ -12,30 +12,31 @@
   background-color: red;
   padding-right: 5em;
   padding-left: 5em;
-  color: white
+  color: #ffa64d;
 
 }
 h1{
   text-align:right;
 }
 h2{
-  color:white;
+  color:red;
   text-align:right;
   padding-right: 3em;
 }
 h3{
-  color:white;
+  color:red;
   text-align:right;
   padding-right: 6em;
 }
 h4{
-  color:white;
+  color:red;
   text-align:right;
   padding-right: 2em;
 }
 img{
 
   border-radius: 2em;
+
 
 }
 body{
